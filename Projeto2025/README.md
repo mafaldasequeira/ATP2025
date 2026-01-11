@@ -1,4 +1,4 @@
-#Simulação Clínica Médica
+# Simulação Clínica Médica
 
 import FreeSimpleGUI as sg
 import heapq
