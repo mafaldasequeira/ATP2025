@@ -94,6 +94,8 @@ A interface gráfica apresenta vários elementos essenciais:
 - Gráfico da ocupação dos enfermeiros
 
 - Gráfico da ocupação dos médicos
+
+- Gráfico da fila média de espera em função da evolução da fila
   
 Estes gráficos são atualizados a cada simulação, com mecanismos que evitam sobreposição de figuras de execuções anteriores.
 
@@ -101,6 +103,12 @@ Estes gráficos são atualizados a cada simulação, com mecanismos que evitam s
 
 O separador de Logs apresenta um registo cronológico completo dos eventos: chegadas, início e fim de triagem, entrada em consulta e saída.
 Nas estatísticas, é possível visualizar:
+
+- tempo médio de espera
+- tempo médio de consulta
+- tempo média na clínica
+- tamanho da fila de espera (máximo e média)
+- quantidade de doentes atendidos
 - tempo total de ocupação de cada enfermeiro
 - ocupação de cada médico juntamente com a respetiva especialidade
 
